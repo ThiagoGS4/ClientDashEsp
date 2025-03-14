@@ -12,7 +12,7 @@ function Grafico() {
     useEffect(() => {
         async function fetchDados() {
             try {
-                const resposta = await fetch("/api/dados"); // Agora esperamos um array de objetos JSON
+                const resposta = await fetch("https://serverdashesp.azurewebsites.net/api/dados"); // Agora esperamos um array de objetos JSON
                 const dadosRecebidos = await resposta.json(); // Apenas pegamos a resposta direta
                 console.log("Dados recebidos do backend:", dadosRecebidos);
                 setDados(dadosRecebidos);
