@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:8080', // Porta do backend
+        target: 'https://serverdashesp.azurewebsites.net/', // Porta do backend
         changeOrigin: true,
         secure: false
       }
