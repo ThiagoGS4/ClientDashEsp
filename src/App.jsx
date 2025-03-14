@@ -38,8 +38,8 @@ function App() {
               <div>
                 <p>
                   Projeto tem como principal finalidade mostrar algumas funcionalidades do 
-                  React <img src="/assets/react.svg" alt="" height="15px" width="15px"/> e Node.js 
-                  <img src="/assets/5968322.png" alt="" height="15px" width="15px"/>.
+                  React <img src="/react.svg" alt="" height="15px" width="15px"/> e Node.js 
+                  <img src="/5968322.png" alt="" height="15px" width="15px"/>.
                   Os dados são captados pela estrutura do anemômetro e enviados por um microcontrolador esp32 ao 
                   server em Node.js e Express. Depois de recebido, o Node armazena os dados em arquivos 
                   .json, escaneia esses arquivos e os envia ao React que recebe os dados e os transforma nesse
