@@ -1,53 +1,52 @@
-/* import { useState, useEffect } from 'react';
-
-function App() {
-  const [mensagem, setMensagem] = useState('');
-
-  useEffect(() => {
-    fetch('/api/mensagem')  // O Vite redireciona para http://localhost:8080/api/mensagem
-      .then(res => res.json())
-      .then(data => setMensagem(data.mensagem))
-      .catch(err => console.error('Erro ao buscar mensagem:', err));
-  }, []);
-
-  return (
-    <div>
-      <h1>Teste de comunicação 🚀</h1>
-      <p>Mensagem do backend: {mensagem}</p>
-    </div>
-  );
-}
-
-export default App;
- */
-
-
 import React from "react";
 import Grafico from "./Grafico";
 import ReactDOM from 'react-dom';
+import './App.css';
 
 function App() {
     return (
         
       <>
         <header>
-          <h1>Dashboard de dados ambientes coletados com um anemômetro digital</h1>
         </header>
             <body>
-              <div>
-              <div>
+              <div class="tudo">
+              <h1>Dashboard anemômetro digital 📊</h1>
+              <div class="intro">
+                De que se trata este projeto? 🤔
+              </div>
+              <div class="texto">
+              O projeto tem como principal objetivo mostrar na prática a aplicação dos meus conhecimentos emem algumas tecnologias que venho estudando.
+              Segue as principais tecnologias que utilizei para trazer esse projeto à vida:
+              </div>
+              <div class = "techs">
+              <div class = "tech">
+                <img src="/react.svg" alt="React" height="100px" width="100px"/>
+                <h2 style={{color: "#0cd6fb"}}>React</h2>
+              </div>
+              <div class = "tech">
+                <img src="/5968322.png" alt="Node.js" height="100px" width="100px"/>
+                <h2>Node.js</h2>
+              </div>
+              <div class = "tech">
+                <img src="/iot.png" alt="IoT" height="100px" width="100px"/>
+                <h2>I o T</h2>
+              </div>
+              </div>
+              <div class="como">
+                Como funciona? 🤔
+              </div>
+              <div class = "texto">
                 <p>
-                  Projeto tem como principal finalidade mostrar algumas funcionalidades do 
-                  React <img src="/react.svg" alt="" height="15px" width="15px"/> e Node.js 
-                  <img src="/5968322.png" alt="" height="15px" width="15px"/>.
                   Os dados são captados pela estrutura do anemômetro e enviados por um microcontrolador esp32 ao 
                   server em Node.js e Express. Depois de recebido, o Node armazena os dados em arquivos 
-                  .json, escaneia esses arquivos e os envia ao React que recebe os dados e os transforma nesse
-                  belo gráfico interativo que você pode ver abaixo:
+                  .json, escaneia esses arquivos e os envia à página em React que recebe os dados e os transforma nesse
+                  belo DashBoard interativo que você pode ver abaixo:
                 </p>
               </div>
               <div>
-                <h1>Gráfico de Temperatura</h1>
+                <h1>DashBoard Interativo:</h1>
+                <br />
                 <Grafico />
               </div>
               </div>
