@@ -18,7 +18,7 @@ function Grafico() {
     useEffect(() => {
         async function fetchDados() {
             try {
-                const resposta = await fetch("/api/dados"); 
+                const resposta = await fetch("https://serverdashesp.azurewebsites.net/api/dados"); 
                 const dadosRecebidos = await resposta.json();
                 console.log("Dados recebidos do backend:", dadosRecebidos);
                 setDados(dadosRecebidos);
