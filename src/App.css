@@ -9,4 +9,56 @@
       font-family: 'Open Sans', Arial, sans-serif;
   }
 
+  h1{
+    text-align: center;
+  }
+
+  body{
+    background-image: url("/bgi.jpg");
+    background-size: cover;
+  }
+
+  .tudo{
+    margin-top: 30px;
+  }
+
+  .intro{
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.596);
+    margin: 50px 440px 0 440px;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+    border: 0.2rem solid;
+  }
+
+  .texto{
+    font-size: 16px;
+    text-align: center;
+    margin: 100px;
+  }
+
+  .techs{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .tech{
+    margin:0px 100px 0px 100px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.596);
+    font-size: 20px;
+  }
+
+
+  .como{
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.596);
+    margin: 100px 440px 0 440px;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+    border: 0.2rem solid;
+  }
   
