@@ -1,0 +1,19 @@
+.geral{
+    margin:0px 100px 0px 100px;
+}
+
+.grafico{
+    background: rgba(255, 255, 255, 0.527);
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.tabela{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+}
