@@ -36,7 +36,8 @@ function MiniJanela({ dados, dados2}) {
                 background: "white",
                 padding: "20px",
                 boxShadow: "0px 0px 10px rgba(0,0,0,0.2)",
-                borderRadius: "5px"
+                borderRadius: "5px",
+                color: "rgba(0, 0, 0, 0.2)
             }}>
                 <h3>Detalhes do Dado</h3>
                 <p><strong>Horário:</strong> {dados.time}</p>
