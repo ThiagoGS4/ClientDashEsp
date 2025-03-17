@@ -16,7 +16,7 @@ function App() {
                 De que se trata este projeto? 🤔
               </div>
               <div class="texto">
-              O projeto tem como principal objetivo mostrar na prática a aplicação dos meus conhecimentos emem algumas tecnologias que venho estudando.
+              O projeto tem como principal objetivo mostrar na prática a aplicação dos meus conhecimentos em algumas tecnologias que venho estudando.
               Segue as principais tecnologias que utilizei para trazer esse projeto à vida:
               </div>
               <div class = "techs">
